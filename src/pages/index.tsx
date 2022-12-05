@@ -10,7 +10,9 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
-        <p className='m-auto mt-1 text-3xl'>Template</p>
+        <p className='m-auto mt-1 inline-block rounded border border-red-800 bg-red-300 p-3 text-4xl hover:bg-slate-500'>
+          Template
+        </p>
       </main>
     </div>
   )
